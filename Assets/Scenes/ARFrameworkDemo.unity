@@ -265,7 +265,7 @@ MonoBehaviour:
         m_MethodName: SetPlacedPrefab
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: -6689036041284674117, guid: 31ddcb234678f7b49a8139b9aab4f2e1, type: 3}
+          m_ObjectArgument: {fileID: 4231643562765756542, guid: f7ccd5c658768ca4294f5c5c8877ac4f, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -809,7 +809,7 @@ MonoBehaviour:
         m_MethodName: SetPlacedPrefab
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: -6689036041284674117, guid: 7bf325e9a2c817e48858c15532d10def, type: 3}
+          m_ObjectArgument: {fileID: 7828460289978931099, guid: 0394c731a6e5df649bb096441d3ff98b, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -954,7 +954,7 @@ MonoBehaviour:
         m_MethodName: SetPlacedPrefab
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: -6689036041284674117, guid: 436c2659fbae22342bb10834c3759ab6, type: 3}
+          m_ObjectArgument: {fileID: 3038866306465629551, guid: 00fd706f1e281db41af296d2e488628b, type: 3}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -2312,7 +2312,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2449,7 +2449,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3157,7 +3157,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
