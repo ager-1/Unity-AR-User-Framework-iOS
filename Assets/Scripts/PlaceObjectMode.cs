@@ -22,7 +22,7 @@ public class PlaceObjectMode : MonoBehaviour
     }
     void PlaceObject(Vector2 touchPosition)
     {
-        if(raycaster.Raycast(touchPosition, hits, TrackableType.PlaneWithinPolygon))
+        if(raycaster.Raycast(touchPosition, hits, TrackableType.PlaneWithinPolygon | TrackableType.PlaneWithinBounds))
         {
             Pose hitPose = hits[0].pose;
             Instantiate(placedPrefab, hitPose.position, hitPose.rotation);
