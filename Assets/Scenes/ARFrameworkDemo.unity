@@ -259,7 +259,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 295784974}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1030231702}
+        m_TargetAssemblyTypeName: PlaceObjectMode, Assembly-CSharp
+        m_MethodName: SetPlacedPrefab
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: -6689036041284674117, guid: 31ddcb234678f7b49a8139b9aab4f2e1, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 922660869}
+        m_TargetAssemblyTypeName: InteractionController, Assembly-CSharp
+        m_MethodName: EnableMode
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PlacedObject
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &295784974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -779,7 +803,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 677637512}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1030231702}
+        m_TargetAssemblyTypeName: PlaceObjectMode, Assembly-CSharp
+        m_MethodName: SetPlacedPrefab
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: -6689036041284674117, guid: 7bf325e9a2c817e48858c15532d10def, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 922660869}
+        m_TargetAssemblyTypeName: InteractionController, Assembly-CSharp
+        m_MethodName: EnableMode
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PlacedObject
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &677637512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -831,7 +879,7 @@ GameObject:
   - component: {fileID: 755768392}
   - component: {fileID: 755768391}
   m_Layer: 5
-  m_Name: HumanButton
+  m_Name: Product
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -900,7 +948,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 755768392}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1030231702}
+        m_TargetAssemblyTypeName: PlaceObjectMode, Assembly-CSharp
+        m_MethodName: SetPlacedPrefab
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: -6689036041284674117, guid: 436c2659fbae22342bb10834c3759ab6, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 922660869}
+        m_TargetAssemblyTypeName: InteractionController, Assembly-CSharp
+        m_MethodName: EnableMode
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PlacedObject
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &755768392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -921,7 +993,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: af4e4656a1450f54d818ebc1fbfc472e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2de8aaf77c19fe4469425c3faa22fb95, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
