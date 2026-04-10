@@ -1639,6 +1639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1030231701}
   - component: {fileID: 1030231702}
+  - component: {fileID: 1030231703}
   m_Layer: 0
   m_Name: PlaceObject Mode
   m_TagString: Untagged
@@ -1674,6 +1675,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlaceObjectMode
   raycaster: {fileID: 1689510588}
+--- !u!114 &1030231703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030231700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed07f096c5252ea43bb439e42233a93e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShowTrackablesOnEnable
+  sessionOrigin: {fileID: 1689510589}
 --- !u!1 &1086126017
 GameObject:
   m_ObjectHideFlags: 0
